@@ -6,7 +6,7 @@ Core Purpose: An automated system that analyzes NBA player props, spreads, and m
 
 System Architecture (breakdown of each component)
 
-1. Data Collection Module 
+## 1. Data Collection Module 
 (feeds data to below)
 
 **What it does:** Automatically gathers all the data we need
@@ -148,7 +148,6 @@ Opponent Defense = (Top 10 defense? -8% | Bottom 10? +8%)
 
 Predicted Points = Base × Pace × Rest × Home × Opponent
 ```
-
 ### **Stage 2: Machine Learning Model (Weeks 5-8)**
 - Train models on historical data
 - Features: 50+ variables (recent form, matchups, usage rate, etc.)
@@ -461,3 +460,4 @@ Key Takeaways from our assessment of the Kelly Criterion
 4. Bigger edge = bigger bet (automatically)
 
 5. This protects your bankroll from ruin during losing streaks
+
