@@ -51,6 +51,21 @@ An automated Python system that analyzes NBA player props, spreads, and moneylin
 | `predictions` | Model forecasts |
 | `bet_tracking` | Results & ROI tracking |
 
+
+Summary
+Data Sources:
+
+✅ NBA Stats API (free, official stats)
+✅ Basketball-Reference (free, backup/historical)
+✅ The Odds API (free tier, betting lines)
+✅ ESPN (free, injuries)
+
+Collection Strategy:
+
+One-time historical import (2-3 hours)
+Daily automated updates (3 scripts, 5-10 minutes total)
+All free or very cheap
+
 ---
 
 ### 3️⃣ Analysis & Prediction Engine
