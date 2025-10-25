@@ -64,7 +64,6 @@ Collection Strategy:
 
 One-time historical import (2-3 hours)
 Daily automated updates (3 scripts, 5-10 minutes total)
-All free or very cheap
 
 ---
 
