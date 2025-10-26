@@ -80,9 +80,9 @@ PredictedPoints = BaseAvg × PaceAdj × RestAdj × HomeAwayAdj × OppDefAdj
 
 ### Stage 2 — Machine Learning (Weeks 5–8)
 
-- 50+ engineered features (usage, matchups, form)  
+- 50+ engineered features (usage, match-ups, form)  
 - Algorithms: Linear Regression → Random Forest → XGBoost  
-- Cross-validation to avoid overfitting  
+- Cross-validation to avoid over-fitting  
 
 ---
 
@@ -101,10 +101,10 @@ PredictedPoints = BaseAvg × PaceAdj × RestAdj × HomeAwayAdj × OppDefAdj
 
 ### 4️⃣ Odds Comparison Module
 
-**Goal:** Identify +EV bets by comparing predictions to sportsbook lines.
+**Goal:** Identify +EV bets by comparing predictions to sports-book lines.
 
 **Workflow**
-1. Pull daily sportsbook lines  
+1. Pull daily sports-book lines  
 2. Convert odds → implied probability  
 3. Compare to model probability  
 4. Compute expected value (EV)  
@@ -113,7 +113,7 @@ PredictedPoints = BaseAvg × PaceAdj × RestAdj × HomeAwayAdj × OppDefAdj
 
 **Example Output**
 LeBron James — Over 25.5 Points
-Sportsbook: DraftKings @ −110 (52.4% implied)
+Sports-book: DraftKings @ −110 (52.4% implied)
 Model: 62% probability
 Edge: +9.6% EV
 Kelly Bet Size: 3.2% bankroll
