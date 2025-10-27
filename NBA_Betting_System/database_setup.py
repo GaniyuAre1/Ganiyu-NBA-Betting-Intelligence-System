@@ -188,7 +188,7 @@ def create_database():
     print("  7. predictions - Store our model predictions")
     print("  8. bet_tracking - Track actual bets and results")
     print()
-    print("🎯 Next Step: Import historical data from 2023-24 season")
+    print("🎯 Next Step: Import historical data from 2024-25 season")
     print("=" * 60)
     
     # Close connection
